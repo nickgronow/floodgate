@@ -14,7 +14,24 @@
 
 ## Content Structure
 
-Coming soon
+* Home
+    * New to Floodate?
+    * Upcoming events
+* I'm New
+    * TextInChurch Contact Card
+    * About us
+* About
+    * Location
+    * Contact Us
+* Events
+    * Calendar - PCO Calendar
+    * List of upcoming events - PCO Registrations
+* Connect (ministries)
+* Media
+    * Sermons
+    * Announcements
+* Give
+* Watch
 
 ## 3rd Party Apps
 
