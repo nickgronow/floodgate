@@ -1,5 +1,3 @@
-# New Floodgate Website
-
 ![Floodgate logo](logo.png)
 
 ## Priorities
