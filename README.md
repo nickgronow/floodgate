@@ -1,4 +1,4 @@
-![Floodgate logo](logo.png)
+![Floodgate logo](header.png)
 
 ## Priorities
 
