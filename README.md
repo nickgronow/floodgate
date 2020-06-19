@@ -33,6 +33,10 @@
 * Give
 * Watch
 
+## Technologies
+
+I am really considering the JAMStack for this new site.  Most of our site content is static, and the parts that are dynamic are fed from our 3rd party apis/embedded pages.  This would cater to performance tremendously.
+
 ## 3rd Party Apps
 
 ### Legend
