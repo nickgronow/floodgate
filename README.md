@@ -1,10 +1,10 @@
-![Floodgate logo](header.png)
+![Floodgate logo](images/header.png)
 
 ## Priorities
 
 1. **Performance** - It needs to be fast.  Our Lighthouse score is 1/100 right now.  Should ideally be 90+.
 
-![Lighthouse Score](lighthouse-score.jpg)
+![Lighthouse Score](images/lighthouse-score.jpg)
 
 2. **Navigation** - We need all top-level links always accessible.  Currently critical links are hidden from view.
 
