@@ -15,22 +15,26 @@
 ## Content Structure
 
 * Home
-    * New to Floodate?
+    * New to Floodate? - Static/CMS page
     * Upcoming events
+        * No PCO api available
+        * Could scrape: [PCO registrations](https://floodgate.churchcenter.com/registrations) couple times a day
 * I'm New
     * TextInChurch Contact Card
-    * About us
+    * About us - Static/CMS page
 * About
-    * Location
-    * Contact Us
+    * Location - Static/CMS page
+    * Contact Us - TextInChurch Contact Card?
 * Events
-    * Calendar - PCO Calendar
-    * List of upcoming events - PCO Registrations
+    * List - [PCO registrations](https://floodgate.churchcenter.com/registrations)
+    * Calendar? - Haven't found a strong use-case for this yet.
 * Connect (ministries)
 * Media
-    * Sermons
+    * [Sermons](https://www.facebook.com/FloodGate/videos/)
     * Announcements
 * Give
+    * [Online form](https://floodgate.churchcenter.com/giving)
+    * Text to give
 * Watch
 
 ## Technologies
@@ -52,3 +56,10 @@ I am really considering the JAMStack for this new site.  Most of our site conten
 * E Tablet Check-in
 * S SMS Welcome follow up
 * S Tablet Connect Card
+
+## v1 Necessities
+
+* Live streaming - restream
+* Giving online
+* Connect Cards
+* Section - ministry pages
