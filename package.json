@@ -7,6 +7,12 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.1",
     "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "gridsome-plugin-pug": "^0.0.3",
+    "gridsome-plugin-tailwindcss": "^2.2.48",
+    "pug": "^3.0.0"
   }
 }
