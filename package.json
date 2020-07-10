@@ -13,6 +13,8 @@
   "devDependencies": {
     "gridsome-plugin-pug": "^0.0.3",
     "gridsome-plugin-tailwindcss": "^2.2.48",
-    "pug": "^3.0.0"
+    "node-sass": "^4.14.1",
+    "pug": "^3.0.0",
+    "sass-loader": "^8.0.2"
   }
 }

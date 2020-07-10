@@ -1,12 +1,8 @@
 <template lang="pug">
-.layout
-  header.header
-    strong
-      g-link(to="/") {{ $static.metadata.siteName }}
-    nav.nav
-      g-link.nav__link(to="/") Home
-      g-link.nav__link(to="/about") About
-  slot
+div
+  navbar
+  .layout
+    slot
 </template>
 
 <static-query>
@@ -16,6 +12,16 @@ query {
   }
 }
 </static-query>
+
+<script>
+import Navbar from '@/components/navbar/Navbar.vue'
+
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
 
 <style>
 body {
