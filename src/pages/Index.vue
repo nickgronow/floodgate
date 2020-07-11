@@ -1,12 +1,18 @@
 <template lang="pug">
 Layout
 
-  // Learn how to use images here: https://gridsome.org/docs/images
+  h1 Components
+  h1 Logo
+
   g-image(alt="FloodGate Logo" src="~/assets/logo.png")
 
-  h1 FloodGate Church
-
-  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
+  h1 Buttons
+  h1 Input field
+  h1 Hero
+  h1 Section
+  h1 Title
+  h1 Text
+  h1 Cards
 
   p.home-links
     a(href="https://gridsome.org/docs/" target="_blank" rel="noopener") Gridsome Docs
