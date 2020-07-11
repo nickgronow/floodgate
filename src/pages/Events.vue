@@ -1,11 +1,9 @@
 <template lang="pug">
 Layout
-  h1 Home
+  h1 Events
   p ---
-  h2 Service times
-  h2 Upcoming events
-  h2 Join us
-  h2 New to Floodgate
+  h2 Announcements video
+  h2 List of events
 </template>
 
 <script>

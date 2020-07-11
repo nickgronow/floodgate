@@ -1,11 +1,10 @@
 <template lang="pug">
 Layout
-  h1 Home
+  h1 I'm New
   p ---
-  h2 Service times
-  h2 Upcoming events
-  h2 Join us
-  h2 New to Floodgate
+  h2 I'm new contact card
+  h2 Join us link
+  h2 Helpful links
 </template>
 
 <script>

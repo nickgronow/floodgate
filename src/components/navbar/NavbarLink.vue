@@ -1,5 +1,5 @@
 <template lang="pug">
-g-link(:class="classes")
+g-link(:to="to" :class="classes")
   slot
 </template>
 
@@ -10,6 +10,11 @@ export default {
       type: Boolean,
       required: false,
       default: false
+    },
+    to: {
+      type: String,
+      required: false,
+      default: ''
     }
   },
   data () {
