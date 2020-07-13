@@ -1,22 +1,20 @@
 <template lang="pug">
 Layout
 
-  h1 Components
-  h1 Logo
+  main.px-4.my-10(class="sm:px-6 sm:my-12 md:my-16 lg:my-20 xl:my-20")
+    h1.text-3xl.tracking-tight.leading-10.font-extrabold.text-gray-900(class="sm:text-4xl sm:leading-none md:text-5xl") Components
 
-  g-image(alt="FloodGate Logo" src="~/assets/favicon.png")
+    .my-4(class="sm:my-6 md:my-8")
+      h2.text-2xl.mb-2(class="sm:text-3xl sm:mb-4 md:text4xl md:mb-6") Favicon
+      g-image.h-12.w-12(alt="FloodGate Logo" src="~/assets/favicon.png")
 
-  h1 Buttons
-  h1 Input field
-  h1 Hero
-  h1 Section
-  h1 Title
-  h1 Text
-  h1 Cards
+    .my-4(class="sm:my-6 md:my-8")
+      h2.text-2xl.mb-2(class="sm:text-3xl sm:mb-4 md:text4xl md:mb-6") Hero
+      p hero here
 
-  p.home-links
-    a(href="https://gridsome.org/docs/" target="_blank" rel="noopener") Gridsome Docs
-    a(href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener") GitHub
+    .my-4(class="sm:my-6 md:my-8")
+      h2.text-2xl.mb-2(class="sm:text-3xl sm:mb-4 md:text4xl md:mb-6") Buttons
+      p buttons here
 </template>
 
 <script>
