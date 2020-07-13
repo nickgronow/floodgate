@@ -82,3 +82,11 @@
 * Join?? (lets brainstorm this one)
     * The weekly wave
     * Contact cards
+
+## Phase 1 Objectives
+
+1. Giving
+1. Watch Online
+1. Service times
+1. I'm new sign up form
+1. Home page first

@@ -4,7 +4,7 @@ Layout
   h1 Components
   h1 Logo
 
-  g-image(alt="FloodGate Logo" src="~/assets/logo.png")
+  g-image(alt="FloodGate Logo" src="~/assets/favicon.png")
 
   h1 Buttons
   h1 Input field

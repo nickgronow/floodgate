@@ -8,7 +8,7 @@ module.exports = {
   siteName: 'FloodGate Church',
   siteDescription: 'We passionately worship, enthusiastically serve and compassionately care for people!',
   siteUrl: 'https://floodgate.church',
-  icon: './src/assets/logo.png',
+  icon: './src/assets/favicon.png',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
