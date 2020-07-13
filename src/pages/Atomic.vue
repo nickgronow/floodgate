@@ -10,7 +10,7 @@ Layout
 
     .my-4(class="sm:my-6 md:my-8")
       h2.text-2xl.mb-2(class="sm:text-3xl sm:mb-4 md:text4xl md:mb-6") Hero
-      p hero here
+      f-hero
 
     .my-4(class="sm:my-6 md:my-8")
       h2.text-2xl.mb-2(class="sm:text-3xl sm:mb-4 md:text4xl md:mb-6") Buttons
@@ -18,6 +18,8 @@ Layout
 </template>
 
 <script>
+import FHero from '~/components/FHero.vue'
+
 export default {
   metaInfo: {
     title: 'FloodGate Church - Connect | Serve | Grow',
@@ -27,6 +29,9 @@ export default {
         content: ''
       }
     ]
+  },
+  components: {
+    FHero
   }
 }
 </script>

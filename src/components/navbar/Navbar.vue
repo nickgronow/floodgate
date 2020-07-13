@@ -21,7 +21,7 @@ nav.bg-gray-800
             navbar-link(to="/media/") Media
             navbar-link(to="/give/") Give
             navbar-link(to="/watch/") Watch
-            navbar-link(to="/join/") Join
+            navbar-link(to="/atomic/") Atomic
 
       //  Mobile menu button
       .-mr-2.flex(class="sm:hidden")
