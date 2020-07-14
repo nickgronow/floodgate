@@ -12,10 +12,14 @@ module.exports = {
     },
     extend: {
       colors: {
-        'flood-green-300': '#A1CE3D',
-        'flood-green': '#92C866',
-        'flood-blue': '#00BADA',
-        'flood-red': '#EC3515',
+        'fg-blue': '#1fbddb',
+        'fg-white': '#ffffff',
+        'fg-lighter': '#f7f6f6',
+        'fg-light': '#e8e8e8',
+        'fg-dark': '#232628',
+        'fg-green': '#a1ce3d',
+        'fg-yellow': '#facd09',
+        'fg-red': '#f9420b',
       }
     }
   },
