@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9636676d-ad42-467b-af50-a16d81064b5b/deploy-status)](https://app.netlify.com/sites/pensive-snyder-e8e60d/deploys)
 
-![Floodgate logo](images/header.png)
+# FloodGate Rebrand
 
 ## Setup
 
@@ -11,6 +11,21 @@
 ### 2. Spin it up locally
 
 `gridsome develop` to start a local dev server at `http://localhost:8080`
+
+## Phase 1 Objectives
+
+1. Giving
+1. Watch Online
+1. Service times
+1. I'm new sign up form
+1. Home page first
+
+## Priorities
+
+1. **Performance** - It needs to be fast.  Our Lighthouse score is 1/100 right now.  Should ideally be 90+.
+2. **Navigation** - We need all top-level links always accessible.  Currently critical links are hidden from view.
+3. **Engagement** - People come to either learn about us (new visitors), or find out about upcoming events (new/existing members), or want to watch something (existing members).
+4. **Feedback** - Ensure visitors have the ability to reach out to us about any topic.
 
 ## Content Structure
 
@@ -50,43 +65,19 @@
 
 ## Page Notes
 
-* Home
-    * New to Floodate? - Static/CMS page
-    * Upcoming events
-        * No PCO api available
-        * Could scrape: [PCO registrations](https://floodgate.churchcenter.com/registrations) couple times a day
 * I'm New
     * TextInChurch Contact Card
-    * About us - Static/CMS page
 * About
-    * Beliefs
-    * Location - Static/CMS page
     * Contact Us - TextInChurch Contact Card?
 * Events
-    * Announcements video
     * List - [PCO registrations](https://floodgate.churchcenter.com/registrations)
-    * Calendar? - Haven't found a strong use-case for this yet.
-* Connect
-    * Kids
-    * Youth
-    * Mens
-    * Womens
-    * Homes Teams
 * Media
     * [Sermons](https://www.facebook.com/FloodGate/videos/)
-    * Announcements
 * Give
     * [Online form](https://floodgate.churchcenter.com/giving)
     * Text to give
 * Watch
-* Join?? (lets brainstorm this one)
+    * Youtube
+* Connect
     * The weekly wave
-    * Contact cards
-
-## Phase 1 Objectives
-
-1. Giving
-1. Watch Online
-1. Service times
-1. I'm new sign up form
-1. Home page first
+    * Contact cards for each ministry
