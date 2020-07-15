@@ -3,9 +3,9 @@
 
   .hidden(class="sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full")
     .relative.h-full.max-w-screen-xl.mx-auto
-      svg.absolute.right-full.transform.text-gray-200(width="2000" height="2000" fill="none")
+      svg.absolute.right-full.transform.text-gray-200.rotate-5(width="2000" height="2000" fill="none")
         defs
-          pattern(id="cross" x="0" y="0" width="0.2" height="0.1")
+          pattern(id="cross" x="0" y="0" width="0.22" height="0.15")
             line(x1="18" y1="3" x2="36" y2="48" stroke="currentColor" stroke-width="4")
             line(x1="7" y1="25" x2="42" y2="12" stroke="currentColor" stroke-width="4")
             line(x1="218" y1="103" x2="236" y2="148" stroke="currentColor" stroke-width="4")

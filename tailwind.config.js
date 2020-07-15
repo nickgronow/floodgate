@@ -20,6 +20,10 @@ module.exports = {
         'fg-green': '#a1ce3d',
         'fg-yellow': '#facd09',
         'fg-red': '#f9420b',
+      },
+      rotate: {
+        '5': '5deg',
+        '10': '10deg'
       }
     }
   },
