@@ -13,6 +13,8 @@ module.exports = {
     extend: {
       colors: {
         'fg-blue': '#1fbddb',
+        'fg-blue-400': '#21C8E7',
+        'fg-blue-300': '#22CFF0',
         'fg-white': '#ffffff',
         'fg-lighter': '#f7f6f6',
         'fg-light': '#e8e8e8',

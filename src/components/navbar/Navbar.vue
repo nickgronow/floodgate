@@ -9,8 +9,8 @@ nav.bg-gray-800
         // Logo
         .flex-shrink-0
           g-link(to="/")
-            img(class="block lg:hidden h-12 w-auto" src='/mark.svg' alt='FloodGate logo')
-            img(class="hidden lg:block h-12 w-auto" src='/logo.svg' alt='FloodGate logo')
+            img(class="block lg:hidden h-12 w-auto" src='/icons/mark.svg' alt='FloodGate logo')
+            img(class="hidden lg:block h-12 w-auto" src='/icons/logo.svg' alt='FloodGate logo')
         // Menu links
         .hidden(class="sm:block sm:ml-6")
           .flex

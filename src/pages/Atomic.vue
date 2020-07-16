@@ -9,17 +9,18 @@ Layout
       g-image.h-12.w-12(alt="FloodGate Logo" src="~/assets/favicon.png")
 
     .my-4(class="sm:my-6 md:my-8")
-      h2.text-2xl.mb-2(class="sm:text-3xl sm:mb-4 md:text4xl md:mb-6") Hero
-      f-hero
+      h2.text-2xl.mb-2(class="sm:text-3xl sm:mb-4 md:text4xl md:mb-6") Buttons
+      p.my-4
+        base-button Primary button
+      p.my-4
+        base-button(type="secondary") Secondary button
 
     .my-4(class="sm:my-6 md:my-8")
-      h2.text-2xl.mb-2(class="sm:text-3xl sm:mb-4 md:text4xl md:mb-6") Buttons
-      p buttons here
+      h2.text-2xl.mb-2(class="sm:text-3xl sm:mb-4 md:text4xl md:mb-6") Hero
+      base-hero
 </template>
 
 <script>
-import FHero from '~/components/FHero.vue'
-
 export default {
   metaInfo: {
     title: 'FloodGate Church - Connect | Serve | Grow',
@@ -29,9 +30,6 @@ export default {
         content: ''
       }
     ]
-  },
-  components: {
-    FHero
   }
 }
 </script>
