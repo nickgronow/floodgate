@@ -1,5 +1,5 @@
 <template lang="pug">
-.relative.bg-gray-50.overflow-hidden
+.relative.bg-gray-100.overflow-hidden
 
   .hidden(class="sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full")
     .relative.h-full.max-w-screen-xl.mx-auto
@@ -21,8 +21,8 @@
           | Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
 
         .mt-5.max-w-md.mx-auto(class="sm:flex sm:justify-center md:mt-8")
-          base-button Join Us
-          base-button(type="secondary") Watch Live
+          base-button(class="sm:mx-4") Join Us
+          base-button(class="sm:mx-4" type="secondary") Watch Live
 </template>
 
 <script>
