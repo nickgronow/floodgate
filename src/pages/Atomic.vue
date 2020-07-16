@@ -10,9 +10,9 @@ Layout
 
     .my-4(class="sm:my-6 md:my-8")
       h2.text-2xl.mb-2(class="sm:text-3xl sm:mb-4 md:text4xl md:mb-6") Buttons
-      p.my-4
+      p.my-2(class="sm:my-4")
         base-button Primary button
-      p.my-4
+      p.my-2(class="sm:my-4")
         base-button(type="secondary") Secondary button
 
     .my-4(class="sm:my-6 md:my-8")
