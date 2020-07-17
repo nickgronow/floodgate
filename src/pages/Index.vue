@@ -18,9 +18,11 @@ Layout
 
   base-hero(bg="plain")
     template(v-slot:heading) Covid-19 Message
-  h1 Home
-  p ---
-  h2 Service times
+
+  base-hero(bg="dark")
+    template(v-slot:heading) Announcements
+    iframe.mt-32.mx-auto.transform.scale-125(src="https://www.youtube.com/embed/videoseries?list=PLksnNAyeyBemgzkJJStUxUrenM-F4PXqX" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen")
+
   h2 Upcoming events
   h2 Join us
   h2 New to Floodgate

@@ -13,7 +13,7 @@
   .relative.pt-6.pb-12(class="sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32")
     main.mt-10.mx-auto.max-w-screen-xl.px-4.text-center(class="sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28")
 
-      h2.uppercase.text-3xl.tracking-tight.leading-10.font-extrabold.text-fg-dark(class="sm:text-4xl sm:leading-none md:text-5xl")
+      h2.uppercase.text-3xl.tracking-tight.leading-10.font-extrabold(class="sm:text-4xl sm:leading-none md:text-5xl" :class="textCss")
         slot(name="heading")
 
       slot
@@ -46,6 +46,13 @@ export default {
         return 'bg-white'
       } else {
         return 'bg-fg-dark'
+      }
+    },
+    textCss () {
+      if (this.bg === 'dark') {
+        return 'text-gray-100'
+      } else {
+        return 'text-fg-dark'
       }
     },
     showPattern () {
