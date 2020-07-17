@@ -20,7 +20,7 @@
 
         slot
 
-        .mt-5.max-w-md.mx-auto(class="sm:flex sm:justify-center md:mt-8")
+        .mt-8.max-w-md.mx-auto(class="sm:flex sm:justify-center md:mt-12")
           base-button(class="sm:mx-4") Join Us
           base-button(class="sm:mx-4" type="secondary") Watch Live
 </template>
