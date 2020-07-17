@@ -13,8 +13,7 @@ export default {
     return {
       size: 4000,
       scale: 0.16,
-      strokeWidth: 6,
-      color: 'currentColor'
+      strokeWidth: 6
     }
   }
 }

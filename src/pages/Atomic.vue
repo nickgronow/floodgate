@@ -18,6 +18,12 @@ Layout
     .my-4(class="sm:my-6 md:my-8")
       h2.text-2xl.mb-2(class="sm:text-3xl sm:mb-4 md:text4xl md:mb-6") Hero
       base-hero
+        heading
+          | FloodGate 
+          br(class="xl:hidden")
+          span.text-fg-blue Church
+        content
+          | Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
 </template>
 
 <script>

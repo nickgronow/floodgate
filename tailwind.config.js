@@ -22,6 +22,7 @@ module.exports = {
         'fg-green': '#a1ce3d',
         'fg-yellow': '#facd09',
         'fg-red': '#f9420b',
+        'gray-250': '#E8EDF2',
       },
       rotate: {
         '5': '5deg',
