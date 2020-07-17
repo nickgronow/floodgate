@@ -21,7 +21,7 @@ Layout
 
   base-hero(bg="dark")
     template(v-slot:heading) Announcements
-    iframe.mt-32.mx-auto.transform.scale-125(src="https://www.youtube.com/embed/videoseries?list=PLksnNAyeyBemgzkJJStUxUrenM-F4PXqX" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen")
+    iframe.mt-32.mb-12.mx-auto.transform.scale-125(class="lg:mb-16 lg:mt-40 lg:scale-150" src="https://www.youtube.com/embed/videoseries?list=PLksnNAyeyBemgzkJJStUxUrenM-F4PXqX" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen")
 
   h2 Upcoming events
   h2 Join us
