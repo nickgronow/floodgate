@@ -1,5 +1,5 @@
 <template lang="pug">
-svg.absolute.inset-0.transform.text-gray-200.scale-75(:width="size" :height="size" fill="none")
+svg.absolute.inset-0.transform.scale-75(:width="size" :height="size" fill="none")
   defs
     pattern(id="squiggle" x="0" y="0" :width="scale" :height="scale")
       path(d="M 5 15 c 0 -15 20 -15 20 0" fill="none" :stroke="color" :stroke-linecap="linecap" :stroke-width="strokeWidth")
