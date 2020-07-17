@@ -14,7 +14,9 @@ module.exports = {
       colors: {
         'fg-blue': '#1fbddb',
         'fg-blue-400': '#21C8E7',
-        'fg-blue-300': '#22CFF0',
+        'fg-blue-300': '#44c9e4',
+        'fg-blue-200': '#5ed1e8',
+        'fg-blue-100': '#70d6eb',
         'fg-white': '#ffffff',
         'fg-lighter': '#f7f6f6',
         'fg-light': '#e8e8e8',

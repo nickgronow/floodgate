@@ -27,6 +27,7 @@ nav.bg-gray-800
       .-mr-2.flex(class="sm:hidden")
         button.inline-flex.items-center.justify-center.p-2.rounded-md.text-gray-400.transition.duration-150.ease-in-out(
           class="hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
+          @click='toggleMobileMenu'
           aria-label='Main menu'
           aria-expanded='false')
 
@@ -39,7 +40,7 @@ nav.bg-gray-800
             path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
 
   // Mobile menu toggle with - open: "block" closed: "hidden"
-  .hidden(class="sm:hidden")
+  div(class="sm:hidden" :class="mobileMenuCss")
 
     // Mobile menu links
     .px-2.pt-2.pb-3
@@ -61,6 +62,24 @@ export default {
   components: {
     NavbarLink,
     NavbarLinkMobile
+  },
+  data () {
+    return {
+      showMobileMenu: false
+    }
+  },
+  computed: {
+    mobileMenuCss () {
+      if (this.showMobileMenu) {
+        return 'display'
+      }
+      return 'hidden'
+    }
+  },
+  methods: {
+    toggleMobileMenu () {
+      this.showMobileMenu = !this.showMobileMenu
+    }
   }
 }
 </script>

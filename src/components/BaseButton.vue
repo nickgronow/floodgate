@@ -15,7 +15,7 @@ export default {
   computed: {
     cssClasses () {
       if (this.type === 'primary') {
-        return 'text-white bg-fg-blue hover:bg-fg-blue-300'
+        return 'text-white bg-fg-blue hover:bg-fg-blue-200'
       } else {
         return 'text-fg-dark border border-fg-dark hover:text-white hover:bg-fg-dark'
       }
