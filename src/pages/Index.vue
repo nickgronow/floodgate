@@ -17,7 +17,7 @@ Layout
         span.mx-auto Watch Live
 
   base-hero(bg="plain")
-    template(v-slot:heading) Covid-19 Message
+    template(v-slot:heading) Covid-19 News
 
   base-hero(bg="dark")
     template(v-slot:heading) Announcements
