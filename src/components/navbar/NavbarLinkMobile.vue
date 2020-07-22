@@ -1,5 +1,5 @@
 <template lang="pug">
-g-link(:class="classes")
+g-link(:to="to" :class="classes")
   slot
 </template>
 
