@@ -10,6 +10,11 @@ export default {
       type: Boolean,
       required: false,
       default: false
+    },
+    to: {
+      type: String,
+      required: false,
+      default: ''
     }
   },
   data () {
