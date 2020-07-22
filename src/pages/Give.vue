@@ -1,12 +1,21 @@
 <template lang="pug">
 Layout
+
   g-image(src="~/assets/tithes-offerings.jpg")
+
   base-hero(bg="dark")
     template(v-slot:heading) Thank you for supporting FloodGate
 
     p.my-4.max-w-md.mx-auto.text-lg.text-gray-500(class="sm:my-6 sm:text-xl md:my-8 md:text-2xl lg:my-10 lg:max-w-3xl") Whether you wish to make a one-time gift or set up an automated giving schedule, our online giving system is a secure, convenient option. Think of it as a virtual offering bucket; a way that you can give to FloodGate from wherever you are.
 
     base-button(@click.native="giveOnline") Give Online
+
+  base-hero(bg="plain")
+    template(v-slot:heading) Text to give
+
+    p.my-4.max-w-md.mx-auto.text-lg.text-gray-500(class="sm:my-6 sm:text-xl md:my-8 md:text-2xl lg:my-10 lg:max-w-3xl") Text any amount to 84321 to give
+
+    p.my-4.max-w-md.mx-auto.text-lg.text-gray-500(class="sm:my-6 sm:text-xl md:my-8 md:text-2xl lg:my-10 lg:max-w-3xl") Then follow a simple self-guided setup right from your phone. Setup takes about two minutes, tops. After that, donating is as simple as sending us a text. It’s the easiest & quickest way to donate!
 </template>
 
 <script>
