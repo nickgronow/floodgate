@@ -11,17 +11,12 @@ Layout
       span Sunday 10am
 
     .mt-8.mx-auto(class="sm:flex sm:justify-center sm:max-w-md sm:mt-10 md:mt-12")
-      base-button(class="sm:w-full")
-        span.mx-auto Join Us
-      base-button(class="sm:w-full" type="secondary")
+      base-button(class="sm:w-full" type="primary" to="https://floodgate.online.church")
         span.mx-auto Watch Live
-
-  base-hero(bg="plain")
-    template(v-slot:heading) Covid-19 News
 
   base-hero(bg="dark")
     template(v-slot:heading) Announcements
-    iframe.mt-32.mb-12.mx-auto.transform.scale-125(class="lg:mb-16 lg:mt-40 lg:scale-150" src="https://www.youtube.com/embed/videoseries?list=PLksnNAyeyBemgzkJJStUxUrenM-F4PXqX" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen")
+    base-video(src="https://www.youtube.com/embed/videoseries?list=PLksnNAyeyBemgzkJJStUxUrenM-F4PXqX")
 
   h2 Upcoming events
   h2 Join us
@@ -38,6 +33,8 @@ export default {
         content: ''
       }
     ]
+  },
+  methods: {
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template lang="pug">
-svg.absolute.inset-0.transform.scale-75(:width="size" :height="size" fill="none")
+svg.absolute.inset-0.transform.scale-50(:width="size" :height="size" fill="none")
   defs
     pattern(id="squiggle" x="0" y="0" :width="scale" :height="scale")
       path(d="M 5 15 c 0 -15 20 -15 20 0" fill="none" :stroke="color" :stroke-linecap="linecap" :stroke-width="strokeWidth")
@@ -15,7 +15,7 @@ export default {
   data () {
     return {
       size: 4000,
-      scale: 0.14,
+      scale: 0.24,
       linecap: 'round',
       strokeWidth: 6,
       color: 'currentColor'

@@ -1,6 +1,9 @@
 <template lang="pug">
-g-link(:to="to" :class="classes")
-  slot
+div
+  g-link(:to="to" :class="classes" v-if="internalLink")
+    slot
+  a(:href="to" :class="classes" v-if="!internalLink")
+    slot
 </template>
 
 <script>
@@ -46,6 +49,9 @@ export default {
   computed: {
     classes () {
       return this.baseClasses
+    },
+    internalLink () {
+      return this.to.startsWith('https')
     }
   }
 }

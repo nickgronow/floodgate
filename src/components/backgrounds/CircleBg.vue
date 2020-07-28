@@ -1,5 +1,5 @@
 <template lang="pug">
-svg.absolute.inset-0.transform.scale-75(:width="size" :height="size" fill="none")
+svg.absolute.inset-0.transform.scale-100(:width="size" :height="size" fill="none")
   defs
     pattern(id="circle" x="0" y="0" :width="scale" :height="scale")
       circle(cx="50" cy="50" :r="radius" fill="currentColor")

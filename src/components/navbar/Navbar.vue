@@ -1,5 +1,5 @@
 <template lang="pug">
-nav.bg-gray-800
+nav.bg-fg-dark
 
   // Container
   .max-w-7xl.mx-auto(class="px-4 sm:px-6 lg:px-8")
@@ -14,14 +14,9 @@ nav.bg-gray-800
         // Menu links
         .hidden(class="sm:block sm:ml-6")
           .flex
-            navbar-link(to="/im-new/") I'm New
             navbar-link(to="/about/") About
-            navbar-link(to="/events/") Events
-            navbar-link(to="/connect/") Connect
-            navbar-link(to="/media/") Media
             navbar-link(to="/give/") Give
-            navbar-link(to="/watch/") Watch
-            navbar-link(to="/atomic/") Atomic
+            navbar-link(to="https://floodgate.online.church") Watch
 
       //  Mobile menu button
       .-mr-2.flex(class="sm:hidden")
@@ -44,14 +39,9 @@ nav.bg-gray-800
 
     // Mobile menu links
     .px-2.pt-2.pb-3
-      navbar-link-mobile(to="/im-new/") I'm New
       navbar-link-mobile(to="/about/") About
-      navbar-link-mobile(to="/events/") Events
-      navbar-link-mobile(to="/connect/") Connect
-      navbar-link-mobile(to="/media/") Media
       navbar-link-mobile(to="/give/") Give
-      navbar-link-mobile(to="/watch/") Watch
-      navbar-link-mobile(to="/join/") Join
+      navbar-link-mobile(to="https://floodgate.online.church") Watch
 </template>
 
 <script>

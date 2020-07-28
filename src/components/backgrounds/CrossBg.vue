@@ -1,5 +1,5 @@
 <template lang="pug">
-svg.absolute.inset-0.transform.scale-75(:width="size" :height="size" fill="none")
+svg.absolute.inset-0.transform.scale-50(:width="size" :height="size" fill="none")
   defs
     pattern(id="cross" x="0" y="0" :width="scale" :height="scale")
       line(x1="35" y1="5" x2="65" y2="95" stroke="currentColor" :stroke-width="strokeWidth")
@@ -12,7 +12,7 @@ export default {
   data () {
     return {
       size: 4000,
-      scale: 0.16,
+      scale: 0.26,
       strokeWidth: 6
     }
   }

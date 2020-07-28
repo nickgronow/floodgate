@@ -6,7 +6,7 @@
       cross-bg.text-white(class="rotate-5 translate-x-1-30 translate-y-1-40")
       cross-bg.text-white(class="-rotate-5 translate-x-1-25 translate-y-1-35")
       squiggle-bg.text-white(class="rotate-10 translate-x-1-30 translate-y-1-40")
-      squiggle-bg.text-white(class="-rotate-25 translate-x-1-25 translate-y-1-35")
+      squiggle-bg.text-white(class="-rotate-25 translate-x-1-25 translate-y-1-26")
       circle-bg.text-white(class="-rotate-10 translate-x-1-15 translate-y-1-35")
       circle-bg.text-white(class="rotate-10 translate-x-1-25 translate-y-1-30")
 
