@@ -12,7 +12,7 @@ export default {
       default: 'primary'
     },
     to: {
-      type: Function,
+      type: String,
       required: false
     }
   },
