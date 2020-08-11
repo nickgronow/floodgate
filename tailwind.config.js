@@ -11,11 +11,23 @@ module.exports = {
       }
     },
     extend: {
+      margin: {
+        '72': '18rem',
+        '84': '20rem',
+        '96': '22rem',
+        '-72': '-18rem',
+        '-84': '-20rem',
+        '-96': '-22rem',
+      },
       lineHeight: {
         'tighter': '1.125'
       },
       letterSpacing: {
-        far: '0.5em'
+        'far': '0.2em',
+        'far-1': '0.2em',
+        'far-2': '0.3em',
+        'far-3': '0.4em',
+        'far-4': '0.5em',
       },
       fontSize: {
         '7xl': '5rem',
