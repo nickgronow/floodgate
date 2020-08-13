@@ -7,11 +7,15 @@ Layout
         path(d="M 0 5 c 5 -5 15 -5 20 0 c 5 5 15 5 20 0 c 5 -5 15 -5 20 0 c 5 5 15 5 20 0 c 5 -5 15 -5 20 0 c 5 5 15 5 20 0 v 200 h -120 v -200" fill="currentColor" stroke="none")
 
       .hidden(class="sm:block")
-        img.absolute.text-white.w-8(class="sm:w-8 md:w-12 top-10 left-30" src="shapes/squiggle.svg")
-        img.absolute.text-white.w-8(class="sm:w-8 md:w-12 top-10 right-10" src="shapes/squiggle.svg")
-        img.absolute.text-white.w-8(class="sm:w-8 md:w-12 top-50 left-10" src="shapes/squiggle.svg")
-        img.absolute.text-white.w-8(class="sm:w-8 md:w-12 bottom-40 left-40" src="shapes/squiggle.svg")
-        img.absolute.text-white.w-8(class="sm:w-8 md:w-12 bottom-40 right-10" src="shapes/squiggle.svg")
+        img.absolute(class="sm:w-8 md:w-12 top-10 left-30" src="shapes/squiggle.svg")
+        img.absolute(class="sm:w-8 md:w-12 top-10 right-10" src="shapes/squiggle.svg")
+        img.absolute(class="sm:w-8 md:w-12 top-50 left-10" src="shapes/squiggle.svg")
+        img.absolute(class="sm:w-8 md:w-12 bottom-40 left-40" src="shapes/squiggle.svg")
+        img.absolute(class="sm:w-8 md:w-12 bottom-40 right-10" src="shapes/squiggle.svg")
+        img.absolute(class="sm:w-3 md:w-4 top-10 left-10" src="shapes/circle.svg")
+        img.absolute(class="sm:w-3 md:w-4 top-15 right-40" src="shapes/circle.svg")
+        img.absolute(class="sm:w-3 md:w-4 bottom-35 right-30" src="shapes/circle.svg")
+        img.absolute(class="sm:w-6 md:w-8 top-40 right-5" src="shapes/cross.svg")
 
       main.relative.mt-10.mx-auto.max-w-screen-xl.text-center(class="sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28")
         p.text-yellow-600.uppercase.text-3xl.font-bold.-ml-40.gotham.tracking-widest.leading-none(class="sm:text-2xl sm:-ml-32 md:text-3xl md:-ml-40 lg:text-4xl lg:-ml-72") 10am
@@ -29,6 +33,10 @@ Layout
         img.absolute.text-white.w-8(class="sm:w-8 md:w-12 top-50 left-10" src="shapes/squiggle.svg")
         img.absolute.text-white.w-8(class="sm:w-8 md:w-12 bottom-40 left-40" src="shapes/squiggle.svg")
         img.absolute.text-white.w-8(class="sm:w-8 md:w-12 bottom-40 right-10" src="shapes/squiggle.svg")
+        img.absolute(class="sm:w-3 md:w-4 top-10 left-10" src="shapes/circle.svg")
+        img.absolute(class="sm:w-3 md:w-4 top-15 right-40" src="shapes/circle.svg")
+        img.absolute(class="sm:w-3 md:w-4 bottom-35 right-30" src="shapes/circle.svg")
+        img.absolute(class="sm:w-6 md:w-8 top-40 right-5" src="shapes/cross.svg")
 
       main.relative.mt-10.mx-auto.max-w-screen-xl.text-center(class="sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28")
         p.text-yellow-600.uppercase.text-3xl.font-bold.-ml-40.gotham.tracking-widest.leading-none(class="sm:text-2xl sm:-ml-32 md:text-3xl md:-ml-40 lg:text-4xl lg:-ml-72") 7pm
